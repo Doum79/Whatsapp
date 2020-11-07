@@ -1,0 +1,1053 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<link rel="stylesheet" href="~/build/css/intlTelInput.css">
+<link rel="stylesheet" href="~/build/css/demo.css">
+<!-- .wrapper -->
+<div class="wrapper">
+    <!-- .page -->
+    <div class="page">
+        <div class="col-md-9 mb-4">
+            <section id="checkboxes" class="card" style="padding-right:unset">
+
+                <!-- .page-cover -->
+                <br /><br /><br /><br />
+                <!-- .modal -->
+                <div class="modal fade" id="followersModal" tabindex="-1" role="dialog" aria-labelledby="followersModalLabel" aria-hidden="true">
+                    <!-- .modal-dialog -->
+                    <div class="modal-dialog modal-dialog-overflow" role="document">
+                        <!-- .modal-content -->
+                        <div class="modal-content">
+                            <!-- .modal-header -->
+                            <div class="modal-header">
+                                <h6 class="modal-title"> Followers </h6>
+                            </div>
+                            <!-- /.modal-header -->
+                            <!-- .modal-body -->
+                            <div class="modal-body px-0">
+                                <!-- .list-group -->
+                                <div class="list-group list-group-flush list-group-divider border">
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces2.jpg" alt="Sarah Bishop">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Sarah Bishop</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Designer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-primary">Follow</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces3.jpg" alt="Johnny Day">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Johnny Day</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Computer Hardware Engineer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-primary">Follow</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces4.jpg" alt="Jane Barnes">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Jane Barnes</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Social Worker </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces5.jpg" alt="Nicole Barnett">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Nicole Barnett</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Marketing Manager </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-primary">Follow</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces6.jpg" alt="Michael Ward">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Michael Ward</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Lawyer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces7.jpg" alt="Craig Hansen">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Craig Hansen</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Software Developer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-primary">Follow</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces8.jpg" alt="Juan Fuller">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Juan Fuller</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Budget analyst </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces9.jpg" alt="Julia Silva">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Julia Silva</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Photographer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-primary">Follow</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces10.jpg" alt="Joe Hanson">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Joe Hanson</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Logistician </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces11.jpg" alt="Brenda Griffin">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Brenda Griffin</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Medical Assistant </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-primary">Follow</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces12.jpg" alt="Ryan Jimenez">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Ryan Jimenez</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Photographer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-primary">Follow</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces13.jpg" alt="Cynthia Clark">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Cynthia Clark</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Computer Systems Analyst </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-primary">Follow</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces14.jpg" alt="Bryan Hayes">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Bryan Hayes</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Web Developer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-primary">Follow</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces15.jpg" alt="Martha Myers">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Martha Myers</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Writer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-primary">Follow</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces16.jpg" alt="Tammy Beck">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Tammy Beck</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Designer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-primary">Follow</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces17.jpg" alt="Susan Kelley">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Susan Kelley</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Web Developer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces18.jpg" alt="Albert Newman">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Albert Newman</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Web Developer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-primary">Follow</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces19.jpg" alt="Kyle Grant">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Kyle Grant</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Designer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button type="button" class="btn btn-sm btn-primary">Follow</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                </div>
+                                <!-- /.list-group -->
+                                <!-- .loading -->
+                                <div class="loading border-bottom">
+                                    <div class="loader loader-sm"></div>
+                                    <div class="sr-only"> Loading more content </div>
+                                </div>
+                                <!-- /.loading -->
+                            </div>
+                            <!-- /.modal-body -->
+                            <!-- .modal-footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                            </div>
+                            <!-- /.modal-footer -->
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+                <!-- /Followers Modal -->
+                <!-- Following Modal -->
+                <!-- .modal -->
+                <div class="modal fade" id="followingModal" tabindex="-1" role="dialog" aria-labelledby="followingModalLabel" aria-hidden="true">
+                    <!-- .modal-dialog -->
+                    <div class="modal-dialog modal-dialog-overflow" role="document">
+                        <!-- .modal-content -->
+                        <div class="modal-content">
+                            <!-- .modal-header -->
+                            <div class="modal-header">
+                                <h6 class="modal-title"> Following </h6>
+                            </div>
+                            <!-- /.modal-header -->
+                            <!-- .modal-body -->
+                            <div class="modal-body px-0">
+                                <!-- .list-group -->
+                                <div class="list-group list-group-flush list-group-divider border">
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces2.jpg" alt="Sarah Bishop">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Sarah Bishop</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Designer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces3.jpg" alt="Johnny Day">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Johnny Day</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Computer Hardware Engineer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces4.jpg" alt="Jane Barnes">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Jane Barnes</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Social Worker </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces5.jpg" alt="Nicole Barnett">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Nicole Barnett</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Marketing Manager </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces6.jpg" alt="Michael Ward">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Michael Ward</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Lawyer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces7.jpg" alt="Craig Hansen">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Craig Hansen</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Software Developer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces8.jpg" alt="Juan Fuller">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Juan Fuller</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Budget analyst </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces9.jpg" alt="Julia Silva">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Julia Silva</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Photographer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces10.jpg" alt="Joe Hanson">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Joe Hanson</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Logistician </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces11.jpg" alt="Brenda Griffin">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Brenda Griffin</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Medical Assistant </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces12.jpg" alt="Ryan Jimenez">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Ryan Jimenez</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Photographer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces13.jpg" alt="Cynthia Clark">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Cynthia Clark</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Computer Systems Analyst </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces14.jpg" alt="Bryan Hayes">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Bryan Hayes</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Web Developer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces15.jpg" alt="Martha Myers">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Martha Myers</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Writer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces16.jpg" alt="Tammy Beck">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Tammy Beck</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Designer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces17.jpg" alt="Susan Kelley">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Susan Kelley</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Web Developer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces18.jpg" alt="Albert Newman">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Albert Newman</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Web Developer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                    <!-- .list-group-item -->
+                                    <div class="list-group-item">
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <a href="#" class="user-avatar">
+                                                <img src="assets/images/avatars/uifaces19.jpg" alt="Kyle Grant">
+                                            </a>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                        <!-- .list-group-item-body -->
+                                        <div class="list-group-item-body">
+                                            <h4 class="list-group-item-title">
+                                                <a href="#">Kyle Grant</a>
+                                            </h4>
+                                            <p class="list-group-item-text"> Designer </p>
+                                        </div>
+                                        <!-- /.list-group-item-body -->
+                                        <!-- .list-group-item-figure -->
+                                        <div class="list-group-item-figure">
+                                            <button class="btn btn-sm btn-secondary">Following</button>
+                                        </div>
+                                        <!-- /.list-group-item-figure -->
+                                    </div>
+                                    <!-- /.list-group-item -->
+                                </div>
+                                <!-- /.list-group -->
+                                <!-- .loading -->
+                                <div class="loading border-bottom">
+                                    <div class="loader loader-sm"></div>
+                                    <div class="sr-only"> Loading more content </div>
+                                </div>
+                                <!-- /.loading -->
+                            </div>
+                            <!-- /.modal-body -->
+                            <!-- .modal-footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                            </div>
+                            <!-- /.modal-footer -->
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+                <!-- /Following Modal -->
+                <!-- .page-navs -->
+                <nav class="page-navs">
+                    <!-- .nav-scroller -->
+                    <div class="nav-scroller ">
+                        <!-- .nav -->
+                        <div class="nav nav-center nav-tabs">
+                            <a class="nav-link active" href="user-activities.html">Notification Subscriptions</a>
+                            <a class="nav-link" href="user-teams.html">Support</a>
+                            <a class="nav-link" href="user-projects.html">Privacy Notice</a>
+                        </div>
+                        <!-- /.nav -->
+                    </div>
+                    <!-- /.nav-scroller -->
+                </nav>
+
+
+
+
+                <!-- .form -->
+                <form>
+
+                    <div class="card-body">
+                        <fieldset>
+                            <center >
+                                <p>Please fill in your Whatsapp number below to and select Notification to<br />subscribe to.</p><br/><br />
+                                </center>
+
+                                <div class="form-group">
+                                    <div class="col-md-5 mb-3">
+                                        <label for="pi5">Mobile Phone:</label>
+                                        <!-- .input-group -->
+                                        <div class="input-group input-group-alt">
+
+
+                                            <input type="tel" name="phone " id="phone" placeholder="(201) 555-0123">
+
+                                        </div>
+                                    </div>
+                                    <!-- /.input-group -->
+
+                                </div><br />
+                                <div class="form-group col-md-12 mb-4">
+                                    <!-- .custom-control -->
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="same-address">
+                                        <label class="custom-control-label" for="same-address">I would like to opt-in to receive Credit Notification via Whatsapp. Please read our <a style="color:mediumblue">Privacy Notice</a></label>
+                                    </div>
+                                    <!-- /.custom-control -->
+                                    <!-- .custom-control -->
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="save-info">
+                                        <label class="custom-control-label" for="save-info">I would like to opt-in to receive Debit Notification via Whatsapp. Please read our <a style="color:mediumblue">Privacy Notice</a></label>
+                                    </div>
+                                    <!-- /.custom-control -->
+
+                                    <div class="form-group col-ms-4 mx-2">
+                                        <br /><br />
+
+                                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                                        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <button class="btn btn-primary btn-log " type="submit">Submit</button>
+
+                                    </div>
+                                </div>
+                        </fieldset>
+                    </div>
+                </form>
+
+            </section>
+        </div>
+    </div>
+    </div>
+
+    <script src="~/build/js/intlTelInput.js"></script>
+    <script>
+    var input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+            // allowDropdown: false,
+            // autoHideDialCode: false,
+            // autoPlaceholder: "off",
+            // dropdownContainer: document.body,
+            // excludeCountries: ["us"],
+            // formatOnDisplay: false,
+            // geoIpLookup: function(callback) {
+            //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+            //     var countryCode = (resp && resp.country) ? resp.country : "";
+            //     callback(countryCode);
+            //   });
+            // },
+            // hiddenInput: "full_number",
+            // initialCountry: "auto",
+            // localizedCountries: { 'de': 'Deutschland' },
+            // nationalMode: false,
+            // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+            // placeholderNumberType: "MOBILE",
+            // preferredCountries: ['cn', 'jp'],
+            // separateDialCode: true,
+            utilsScript: "build/js/utils.js",
+        });</script>

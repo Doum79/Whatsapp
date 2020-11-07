@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+}
+
+<div class="table-responsive">
+    <table class="table table-bordered">
+
+        <tr>
+
+            <th>PRODUIT</th>
+            <th>DESCRIPTION</th>
+            <th>IMAGE</th>
+            <th>CATEGORIE</th>
+            <th>DATE SAISIE</th>
+        </tr>
+
+        <tr>
+
+            <td>PRODUIT 1</td>
+            <td>DESCRIPTION 1</td>
+            <td>IMAGE 1</td>
+            <td>CATEGORIE 1</td>
+            <td>DATE SAISIE 1</td>
+            <td><a href="#" class="btn btn-warning btn-xs"><span class="glyphicon glyphicon-edit"></span>Modifier</a></td>
+            <td><a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span>Supprimer</a></td>
+        </tr>
+
+        <tr>
+            <td>PRODUIT 2</td>
+            <td>DESCRIPTION 2</td>
+            <td>IMAGE 2</td>
+            <td>CATEGORIE 2</td>
+            <td>DATE SAISIE 2</td>
+            <td><a href="#" class="btn btn-warning btn-xs"><span class="glyphicon glyphicon-edit"></span>Modifier</a></td>
+            <td><a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span>Supprimer</a></td>
+        </tr>
+    </table>
+</div>
+<ul>
+    <li>@Html.ActionLink("Students", "Edit", "Students")</li>
+    @*<li>@Html.ActionLink("About", "About", "Home")</li>
+    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>*@
+</ul>
+
+
